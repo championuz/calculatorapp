@@ -1,6 +1,6 @@
 # Calculator App in React Native
 
-This is a simple calculator app built in React Native that allows users to perform basic arithmetic calculations. The app includes buttons for digits (0-9), decimal point (.), and the four basic arithmetic operations: addition (+), subtraction (-), multiplication (*), and division (/).
+This is a simple calculator app built in React Native that allows users to perform basic arithmetic calculations. The app includes buttons for digits (0-9), decimal point (.), and just two basic arithmetic operations: addition (+) and subtraction (-).
 
 ## Getting Started
 
@@ -12,11 +12,7 @@ Before proceeding, ensure you have the following software installed:
 
 1. Node.js: You can download and install Node.js from the official website: [https://nodejs.org](https://nodejs.org)
 
-2. Expo CLI: Install Expo CLI globally on your system using npm (Node Package Manager):
-
-   ```bash
-   npm install -g expo-cli
-   ```
+2. Set up React Native: Set up React Native on your PC using npm (Node Package Manager). Check out [Their documentation](https://nodejs.org):
 
 ### Cloning the Repository
 
@@ -42,18 +38,10 @@ npm install
 To run the app in development mode, use the following command:
 
 ```bash
-npm start
+npm react-native start
 ```
 
-This will start the Expo development server, and you'll see a QR code in the terminal.
-
-#### Running on a Physical Device
-
-1. Install the Expo Go app on your iOS or Android device from the respective app store.
-
-2. Scan the QR code displayed in the terminal using the Expo Go app.
-
-3. The app will be bundled and loaded on your device, allowing you to interact with the calculator.
+This will start the metro server, and you'll see the short symbols to run it on a simulator.
 
 #### Running on an Emulator/Simulator
 
