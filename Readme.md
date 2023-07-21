@@ -19,10 +19,8 @@ Before proceeding, ensure you have the following software installed:
 Clone this repository to your local machine using Git:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/championuz/calculatorapp.git
 ```
-
-Replace `<repository_url>` with the URL of the repository.
 
 ### Installing Dependencies
 
@@ -31,6 +29,9 @@ Once the repository is cloned, navigate to the project's root directory and inst
 ```bash
 cd calculator-app
 npm install
+
+Installing iOS Modules
+cd ios && pod install && cd ..
 ```
 
 ### Running the App
@@ -38,7 +39,7 @@ npm install
 To run the app in development mode, use the following command:
 
 ```bash
-npm react-native start
+npx react-native start
 ```
 
 This will start the metro server, and you'll see the short symbols to run it on a simulator.
