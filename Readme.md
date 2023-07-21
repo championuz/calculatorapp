@@ -12,7 +12,7 @@ Before proceeding, ensure you have the following software installed:
 
 1. Node.js: You can download and install Node.js from the official website: [https://nodejs.org](https://nodejs.org)
 
-2. Set up React Native: Set up React Native on your PC using npm (Node Package Manager). Check out [Their documentation](https://nodejs.org):
+2. Set up React Native: Set up React Native on your PC using npm (Node Package Manager). Check out [the introduction.](https://reactnative.dev/docs/getting-started)
 
 ### Cloning the Repository
 
